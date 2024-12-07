@@ -10,7 +10,7 @@ const Footer = () => (
         <div className="flex items-center justify-center lg:justify-start space-x-4">
           <div className="bg-white p-3 rounded-full shadow-md">
             <Image
-              src="/logo.png"
+              src="./logo.png"
               alt="Ultimate Auto Detail Logo"
               width={50}
               height={50}

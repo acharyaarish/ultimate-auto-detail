@@ -58,7 +58,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 rounded-full overflow-hidden bg-white shadow-md">
               <Image 
-                src="/logo.png" 
+                src="./logo.png" 
                 alt="Ultimate Auto Detail Logo" 
                 width={40} 
                 height={40} 
