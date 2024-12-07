@@ -21,35 +21,35 @@ const services: Service[] = [
     sedan: 60, 
     suv: 75, 
     description: "Keep your car clean with a basic wash and vacuum for a fresh look.", 
-    image: "/images/basic-wash.webp" 
+    image: "./images/basic-wash.webp" 
   },
   { 
     name: "Interior Detail", 
     sedan: 120, 
     suv: 135, 
     description: "Comprehensive interior detailing to rejuvenate your car's interior.", 
-    image: "/images/interior-detail.webp" 
+    image: "./images/interior-detail.webp" 
   },
   { 
     name: "Interior and Exterior", 
     sedan: 200, 
     suv: 220, 
     description: "A full service covering both interior and exterior cleaning.", 
-    image: "/images/interior-exterior.webp" 
+    image: "./images/interior-exterior.webp" 
   },
   { 
     name: "Paint Correction and Interior Detail", 
     sedan: 350, 
     suv: 450, 
     description: "Advanced paint correction to restore your car’s appearance.", 
-    image: "/images/paint-correction.webp" 
+    image: "./images/paint-correction.webp" 
   },
   { 
     name: "Ceramic Coating", 
     sedan: 650, 
     suv: 800, 
     description: "Long-lasting ceramic coating to protect your vehicle.", 
-    image: "/images/ceramic-coating.webp" 
+    image: "./images/ceramic-coating.webp" 
   },
   { 
     name: "Book Now", 
@@ -70,9 +70,9 @@ const HeroSection: FC = () => (
       loop 
       preload="auto"
       className="absolute inset-0 w-full h-full object-cover"
-      poster="/images/hero-poster.jpg"
+      poster="./images/hero-poster.jpg"
     >
-      <source src="/videos/hero-video.mp4" type="video/mp4" />
+      <source src="./videos/hero-video.mp4" type="video/mp4" />
     </video>
     <div className="absolute inset-0 bg-black bg-opacity-70"></div>
     <div className="relative z-10 max-w-3xl text-center text-white px-6 md:px-12 space-y-5 animate-fadeIn">
