@@ -82,7 +82,10 @@ const HeroSection: FC = () => (
       <p className="text-lg md:text-xl opacity-90 leading-relaxed">
         Premium mobile car detailing at your doorstep, Melbourne-wide.
       </p>
-      <Link href="https://www.google.com/maps/place/Ultimate+Auto+Detail/@-37.9431933,143.9990491,8z/data=!4m10!1m2!2m1!1sUltimate+auto+detail+melbourne+reviews!3m6!1s0xa5453c59e2ec5191:0x2851005a5176d25!8m2!3d-37.950559!4d145.3182996!15sCiZVbHRpbWF0ZSBhdXRvIGRldGFpbCBtZWxib3VybmUgcmV2aWV3cyICOAGSARVjYXJfZGV0YWlsaW5nX3NlcnZpY2XgAQA!16s%2Fg%2F11y8cvfrtn?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" 
+      <Link 
+        href="https://www.google.com/maps/place/Ultimate+Auto+Detail/@-37.9431933,143.9990491,8z/data=!4m10!1m2!2m1!1sUltimate+auto+detail+melbourne+reviews!3m6!1s0xa5453c59e2ec5191:0x2851005a5176d25!8m2!3d-37.950559!4d145.3182996!15sCiZVbHRpbWF0ZSBhdXRvIGRldGFpbCBtZWxib3VybmUgcmV2aWV3cyICOAGSARVjYXJfZGV0YWlsaW5nX3NlcnZpY2XgAQA!16s%2Fg%2F11y8cvfrtn?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-block bg-blue-600 hover:bg-blue-500 py-3 px-8 rounded-lg shadow-lg transition-transform transform hover:scale-105 font-semibold"
       >
         Book Your Service
@@ -131,7 +134,10 @@ const ServiceCard: FC<{ service: Service }> = ({ service }) => (
       )}
 
       {service.isBookingCard && (
-        <Link href="https://www.google.com/maps/place/Ultimate+Auto+Detail/@-37.9431933,143.9990491,8z/data=!4m10!1m2!2m1!1sUltimate+auto+detail+melbourne+reviews!3m6!1s0xa5453c59e2ec5191:0x2851005a5176d25!8m2!3d-37.950559!4d145.3182996!15sCiZVbHRpbWF0ZSBhdXRvIGRldGFpbCBtZWxib3VybmUgcmV2aWV3cyICOAGSARVjYXJfZGV0YWlsaW5nX3NlcnZpY2XgAQA!16s%2Fg%2F11y8cvfrtn?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" 
+        <Link 
+          href="https://www.google.com/maps/place/Ultimate+Auto+Detail/@-37.9431933,143.9990491,8z/data=!4m10!1m2!2m1!1sUltimate+auto+detail+melbourne+reviews!3m6!1s0xa5453c59e2ec5191:0x2851005a5176d25!8m2!3d-37.950559!4d145.3182996!15sCiZVbHRpbWF0ZSBhdXRvIGRldGFpbCBtZWxib3VybmUgcmV2aWV3cyICOAGSARVjYXJfZGV0YWlsaW5nX3NlcnZpY2XgAQA!16s%2Fg%2F11y8cvfrtn?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-4 py-2 px-6 bg-yellow-500 text-gray-900 rounded-lg transition hover:bg-yellow-600 transform hover:scale-105 shadow-md font-medium"
         >
           Book Now
@@ -162,7 +168,10 @@ const FooterCTA: FC = () => (
       <p className="text-lg leading-relaxed max-w-2xl mx-auto">
         Convenient, premium car care that comes to you. Book now and experience the ultimate auto detail.
       </p>
-      <Link href="https://www.google.com/maps/place/Ultimate+Auto+Detail/@-37.9431933,143.9990491,8z/data=!4m10!1m2!2m1!1sUltimate+auto+detail+melbourne+reviews!3m6!1s0xa5453c59e2ec5191:0x2851005a5176d25!8m2!3d-37.950559!4d145.3182996!15sCiZVbHRpbWF0ZSBhdXRvIGRldGFpbCBtZWxib3VybmUgcmV2aWV3cyICOAGSARVjYXJfZGV0YWlsaW5nX3NlcnZpY2XgAQA!16s%2Fg%2F11y8cvfrtn?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" 
+      <Link 
+        href="https://www.google.com/maps/place/Ultimate+Auto+Detail/@-37.9431933,143.9990491,8z/data=!4m10!1m2!2m1!1sUltimate+auto+detail+melbourne+reviews!3m6!1s0xa5453c59e2ec5191:0x2851005a5176d25!8m2!3d-37.950559!4d145.3182996!15sCiZVbHRpbWF0ZSBhdXRvIGRldGFpbCBtZWxib3VybmUgcmV2aWV3cyICOAGSARVjYXJfZGV0YWlsaW5nX3NlcnZpY2XgAQA!16s%2Fg%2F11y8cvfrtn?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-block bg-white text-blue-600 py-3 px-8 rounded-lg shadow transition hover:bg-gray-100 font-semibold transform hover:scale-105"
       >
         Book Now
