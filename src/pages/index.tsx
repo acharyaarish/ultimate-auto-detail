@@ -61,20 +61,25 @@ const services: Service[] = [
   }
 ];
 
-// Hero Section Component
+// Optimized Hero Section
 const HeroSection: FC = () => (
   <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
-    <video 
-      autoPlay 
-      muted 
-      loop 
-      preload="auto"
-      className="absolute inset-0 w-full h-full object-cover"
-      poster="./images/hero-poster.jpg"
-    >
-      <source src="./videos/hero-video.mp4" type="video/mp4" />
-    </video>
-    <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+    <div className="absolute inset-0">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        className="w-full h-full object-cover"
+      >
+        <source src="./videos/hero-video.webm" type="video/webm" />
+        <source src="./videos/hero-video.mp4" type="video/mp4" />
+        {/* Fallback message */}
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div className="absolute inset-0 bg-black bg-opacity-50"></div>
     <div className="relative z-10 max-w-3xl text-center text-white px-6 md:px-12 space-y-5 animate-fadeIn">
       <h1 className="text-5xl md:text-6xl font-bold tracking-tight leading-tight">
         Ultimate Auto Detail
@@ -94,7 +99,7 @@ const HeroSection: FC = () => (
   </section>
 );
 
-// Service Card Component with Enhanced Effects
+// Service Card Component
 const ServiceCard: FC<{ service: Service }> = ({ service }) => (
   <div
     className={`group relative rounded-xl overflow-hidden shadow-lg transform transition duration-300 hover:scale-105 ${
@@ -159,7 +164,7 @@ const ServicesSection: FC = () => (
   </section>
 );
 
-// Enhanced Footer CTA Component
+// Footer CTA Component
 const FooterCTA: FC = () => (
   <section className="relative bg-blue-600 text-white py-16 px-6 md:px-12 rounded-lg shadow-lg text-center">
     <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 opacity-80"></div>
